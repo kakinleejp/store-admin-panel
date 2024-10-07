@@ -14,12 +14,14 @@ import { DashComponent } from './dash/dash.component';
 import { MatGridListModule } from '@angular/material/grid-list';
 import { MatCardModule } from '@angular/material/card';
 import { MatMenuModule } from '@angular/material/menu';
+import { CardComponent } from './card/card.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavComponent,
-    DashComponent
+    DashComponent,
+    CardComponent
   ],
   imports: [
     BrowserModule,
